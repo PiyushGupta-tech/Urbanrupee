@@ -1,0 +1,808 @@
+<!-- meta tags and other links -->
+<!-- Header -->
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Mirrored from coui.site/iTop-live/payment.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 08 Apr 2025 00:23:13 GMT -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="dns-prefetch" href="https://cdn.jsdelivr.net" />
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+    <!-- Title -->
+    <title>Urbanrupee - Online Payment Platform & PSP Services.</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/images/logo/favicon.jpeg" />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!-- Fontasosome -->
+    <link rel="stylesheet" href="assets/css/fontasosome.min.css" />
+    <!-- Fonts -->
+    <link rel="stylesheet" href="assets/css/clash-display.css" />
+    <!-- Nice Select -->
+    <link rel="stylesheet" href="assets/css/nice-select.css" />
+    <!-- AOS -->
+    <link rel="stylesheet" href="assets/css/aos.css" />
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+    <!-- Slick -->
+<!-- line awesome -->
+    <link rel="stylesheet" href="assets/css/line-awesome.min.css" />
+    <!-- Main css -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="stylesheet" href="assets/css/urbanrupee-design-system.css" />
+  </head>
+
+  <body>
+    <!--==================== Preloader Start ====================-->
+    <!-- <div class="preloader">
+        <div class="animation-container">
+            <div class="lightning-container">
+                <div class="lightning white"></div>
+                <div class="lightning red"></div>
+            </div>
+            <div class="boom-container">
+                <div class="shape circle big white"></div>
+                <div class="shape circle white"></div>
+                <div class="shape triangle big yellow"></div>
+                <div class="shape disc white"></div>
+                <div class="shape triangle blue"></div>
+            </div>
+            <div class="boom-container second">
+                <div class="shape circle big white"></div>
+                <div class="shape circle white"></div>
+                <div class="shape disc white"></div>
+                <div class="shape triangle blue"></div>
+            </div>
+        </div>
+    </div> -->
+    <!--==================== Preloader End ====================-->
+    <!--==================== Overlay Start ====================-->
+    <div class="body-overlay"></div>
+    <!--==================== Overlay End ====================-->
+
+    <!--==================== Sidebar Overlay End ====================-->
+    <div class="sidebar-overlay"></div>
+    <!--==================== Sidebar Overlay End ====================-->
+
+    <!-- ==================== Scroll to Top End Here ==================== -->
+    <!-- <a class="scroll-top"><i class="fas fa-angle-double-up"></i></a> -->
+    <!-- ==================== Scroll to Top End Here ==================== -->
+
+    <!-- ==================== Cursor Start Here ==================== -->
+    <div class="cursor"></div>
+    <!-- ==================== Cursor End Here ==================== -->
+    <!-- ==================== Header Start Here ==================== -->
+    <header class="header" id="header">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand logo" href="index.html"
+            ><span class="ur-header-logo-stack"><img class="ur-header-logo ur-header-logo--float" src="assets/images/logo/logo.png" alt="Urbanrupee Logo" width="210" height="89" decoding="async" /><img class="ur-header-logo ur-header-logo--pill" src="assets/images/urwhite.png" alt="" width="210" height="89" decoding="async" aria-hidden="true" /><img class="ur-header-logo ur-header-logo--menu" src="assets/images/urwhite.png" alt="" width="210" height="89" decoding="async" role="presentation" /></span></a>
+          <button
+            class="navbar-toggler header-button"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span id="hiddenNav"><i class="las la-bars"></i></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul
+              class="navbar-nav nav-menu ms-auto me-auto align-items-lg-center"
+            >
+              <li class="nav-item">
+                <a
+                  class="nav-link flip-animate"
+                  aria-current="page"
+                  href="index.html"
+                  ><span data-hover="Home">Home</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link flip-animate" href="about.html"
+                  ><span data-hover="About">About</span></a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle flip-animate"
+                  href="services.html"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <span data-hover="Services">Services</span>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="services.html">All Services</a></li>
+                  <li><a class="dropdown-item" href="payment-services.html">Payment Services</a></li>
+                  <li><a class="dropdown-item" href="aml-detector.html">AML Detector</a></li>
+                  <li><a class="dropdown-item" href="automatic-reconciliation.html">Automatic Reconciliation</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle flip-animate"
+                  href="product.html"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <span data-hover="Products">Products</span>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="product.html">All Products</a></li>
+                  <li><a class="dropdown-item" href="white-label-platform.html">White Label Platform</a></li>
+                  <li><a class="dropdown-item" href="custom-checkout.html">Custom Checkout</a></li>
+                  <li><a class="dropdown-item" href="hyper-checkout.html">Hyper Checkout</a></li>
+                  <li><a class="dropdown-item" href="payment-orchestration.html">Orchestration</a></li>
+
+                  <li><a class="dropdown-item" href="payout-portal.html">Payout Portal</a></li>
+
+
+                  <li><a class="dropdown-item" href="close-route-wallet.html">Close Route Wallet</a></li>
+                </ul>
+              </li>
+
+              <!-- <li class="nav-item dropdown">
+                <a
+                  class="nav-link"
+                  href="index.html"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Blog
+                  <span class="nav-item__icon"
+                    ><i class="las la-angle-down"></i></span
+                ></a>
+                <ul class="dropdown-menu">
+                  <li class="dropdown-menu__list">
+                    <a
+                      class="dropdown-item dropdown-menu__link flip-animate"
+                      href="blog.html"
+                      ><span data-hover="Blog Single">Blog Single</span></a
+                    >
+                  </li>
+                  <li class="dropdown-menu__list">
+                    <a
+                      class="dropdown-item dropdown-menu__link flip-animate"
+                      href="blog-details.html"
+                      ><span data-hover="Blog Details">Blog Details</span></a
+                    >
+                  </li>
+                </ul>
+              </li> -->
+
+              <li class="nav-item">
+                <a class="nav-link flip-animate" href="contact.html"
+                  ><span data-hover="Contact">Contact</span></a
+                >
+              </li>
+            </ul>
+            <div class="navbar__widgets">
+              <!-- <div class="navbar__widgets__select">
+                <span><img src="assets/images/globe.png" alt="img" /></span>
+                <select>
+                  <option value="">English</option>
+                  <option value="">Bangla</option>
+                  <option value="">Arabic</option>
+                  <option value="">French</option>
+                </select>
+              </div> -->
+              <div class="navbar__widgets__btn">
+                <a href="https://merchant.urbanrupee.in/" class="common__btn"
+                  ><span>Sign In</span
+                  ><span><i class="fa-solid fa-arrow-right"></i></span
+                ></a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- ==================== Header End Here ==================== -->
+    <main class="overflow-hidden">
+      <div id="smooth-wrapper">
+        <div id="smooth-content">
+          <!--========================== Banner Section Start ==========================-->
+          <section class="banner__area">
+            <!-- <div class="banner__bg"><img src="assets/images/banner-bg.png" alt="img"></div> -->
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="banner__topbar">
+                    <div class="banner__title">
+                      <h2>Easy Payment <span>System</span></h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="banner__thumb">
+                    <video autoplay muted loop>
+                      <source
+                        src="assets/images/service/servicehero.mp4"
+                        type="video/mp4"
+                      />
+                    </video>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!--========================== Banner Section End ==========================-->
+
+          <!--========================== Payment Support Section Start ==========================-->
+          <section class="payment__support">
+            <div class="ps__bg">
+              <!-- <img src="assets/images/yellow-sp.webp" alt="img" /> -->
+            </div>
+            <div class="container">
+              <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                  <div class="payment__support__single">
+                    <img src="assets/images/payment/ps1.png" alt="img" />
+                    <h4>Real Time Processing</h4>
+                    <p>
+                      Experience instant transactions with our real time payment
+                      infrastructure. Ensure seamless transfers and reduce
+                      delays across all customer journeys.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <div class="payment__support__single">
+                    <img src="assets/images/payment/ps2.png" alt="img" />
+                    <h4>Customer Centric Approach</h4>
+                    <p>
+                      We prioritize user satisfaction by offering smooth
+                      onboarding, dedicated support, and reliable uptime that
+                      builds long term customer trust.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <div class="payment__support__single">
+                    <img src="assets/images/payment/ps3.png" alt="img" />
+                    <h4>Smart Infrastructure</h4>
+                    <p>
+                      Built on scalable and modular architecture, our platform
+                      adapts to growing business needs while maintaining
+                      consistent speed and reliability.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!--========================== Payment Support Section End ==========================-->
+
+          <!--========================== Payment Feature Section Start ==========================-->
+          <section class="payment__feature">
+            <div class="fb__bg">
+              <!-- <img src="assets/images/green-sp.jpeg" alt="img" /> -->
+            </div>
+            <div class="container">
+              <!-- White Label -->
+              <div class="payment__feature__single">
+                <div class="row g-5">
+                  <div class="col-lg-5 col-md-5">
+                    <div class="payment__feature__left">
+                      <div class="feature__main__thumb">
+                        <div class="feature__main__thumb__inner">
+                          <img
+                            src="assets/images/payment/whitelabel.png"
+                            alt="img"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-7 col-md-7">
+                    <div class="payment__feature__right">
+                      <h4>White Label Platform</h4>
+                      <p>
+                        Build your own branded solution with our white label
+                        platform. Urbanrupee offers ready to launch
+                        infrastructure that allows you to operate under your
+                        brand with full control. No need to develop everything
+                        from scratch. Focus on growth and let us handle the
+                        backend.
+                      </p>
+                      <ul>
+                        <li>
+                          <img
+                            src="assets/images/payment/star.png"
+                            alt="img"
+                          />Scalable Architecture
+                        </li>
+                        <li>
+                          <img
+                            src="assets/images/payment/star.png"
+                            alt="img"
+                          />Fully Brandable
+                        </li>
+                        <li>
+                          <img
+                            src="assets/images/payment/star.png"
+                            alt="img"
+                          />Quick Deployment
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Payment Orchestration -->
+              <div class="payment__feature__single">
+                <div class="row g-5">
+                  <div class="col-lg-7 col-md-7">
+                    <div class="payment__feature__right">
+                      <h4>Payment Orchestration</h4>
+                      <p>
+                        Urbanrupee empowers businesses with smart payment
+                        routing across multiple providers. Maximize success
+                        rates, reduce costs, and ensure consistent uptime by
+                        using our intelligent orchestration layer that works
+                        globally.
+                      </p>
+                      <ul>
+                        <li>
+                          <img
+                            src="assets/images/payment/star.png"
+                            alt="img"
+                          />Multi Provider Routing
+                        </li>
+                        <li>
+                          <img
+                            src="assets/images/payment/star.png"
+                            alt="img"
+                          />Failover Protection
+                        </li>
+                        <li>
+                          <img
+                            src="assets/images/payment/star.png"
+                            alt="img"
+                          />Global Coverage
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-lg-5 col-md-5">
+                    <div class="payment__feature__left">
+                      <div class="feature__main__thumb">
+                        <div class="feature__main__thumb__inner">
+                          <img
+                            src="assets/images/payment/paymentOR.jpeg"
+                            alt="img"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- E-commerce -->
+              <div class="payment__feature__single">
+                <div class="row g-5">
+                  <div class="col-lg-5 col-md-5">
+                    <div class="payment__feature__left">
+                      <div class="feature__main__thumb">
+                        <div class="feature__main__thumb__inner">
+                          <img src="assets/images/payment/ecom.jpeg" alt="img" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-7 col-md-7">
+                    <div class="payment__feature__right">
+                      <h4>E-commerce Enablement</h4>
+                      <p>
+                        Launch and manage your online store with Urbanrupee. Our
+                        solutions help you manage product listings, payments,
+                        logistics, and customer support all in one place. Start
+                        selling instantly across local and global markets.
+                      </p>
+                      <ul>
+                        <li>
+                          <img
+                            src="assets/images/payment/star.png"
+                            alt="img"
+                          />Storefront Setup
+                        </li>
+                        <li>
+                          <img
+                            src="assets/images/payment/star.png"
+                            alt="img"
+                          />Payment Integration
+                        </li>
+                        <li>
+                          <img
+                            src="assets/images/payment/star.png"
+                            alt="img"
+                          />Order Tracking
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Application -->
+              <div class="payment__feature__single">
+                <div class="row g-5">
+                  <div class="col-lg-7 col-md-7">
+                    <div class="payment__feature__right">
+                      <h4>Application Development</h4>
+                      <p>
+                        We craft custom mobile and web applications tailored to
+                        your business goals. From fintech to logistics,
+                        Urbanrupee delivers scalable apps with clean design and
+                        seamless user experience. Our team ensures fast delivery
+                        and ongoing support.
+                      </p>
+                      <ul>
+                        <li>
+                          <img
+                            src="assets/images/payment/star.png"
+                            alt="img"
+                          />Custom Features
+                        </li>
+                        <li>
+                          <img
+                            src="assets/images/payment/star.png"
+                            alt="img"
+                          />Cross Platform Support
+                        </li>
+                        <li>
+                          <img
+                            src="assets/images/payment/star.png"
+                            alt="img"
+                          />Ongoing Maintenance
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-lg-5 col-md-5">
+                    <div class="payment__feature__left">
+                      <div class="feature__main__thumb">
+                        <div class="feature__main__thumb__inner">
+                          <img
+                            src="assets/images/payment/application.png"
+                            alt="img"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Hyper Checkout -->
+              <div class="payment__feature__single">
+                <div class="row g-5">
+                  <div class="col-lg-5 col-md-5">
+                    <div class="payment__feature__left">
+                      <div class="feature__main__thumb">
+                        <div class="feature__main__thumb__inner">
+                          <img
+                            src="assets/images/payment/hypercheckout.png"
+                            alt="Hyper Checkout"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-7 col-md-7">
+                    <div class="payment__feature__right">
+                      <h4>Hyper Checkout</h4>
+                      <p>
+                        Hyper Checkout is Urbanrupee's ultra-fast payment solution designed to minimize checkout friction and maximize conversion rates. With one-click payments, saved payment methods, and intelligent payment routing, Hyper Checkout provides the fastest and most convenient payment experience for your customers, reducing cart abandonment and increasing revenue.
+                      </p>
+                      <ul>
+                        <li>
+                          <img
+                            src="assets/images/payment/star.png"
+                            alt="img"
+                          />One-Click Payments
+                        </li>
+                        <li>
+                          <img
+                            src="assets/images/payment/star.png"
+                            alt="img"
+                          />Intelligent Payment Routing
+                        </li>
+                        <li>
+                          <img
+                            src="assets/images/payment/star.png"
+                            alt="img"
+                          />Reduced Cart Abandonment
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!--========================== Payment Feature Section End ==========================-->
+
+          <!--========================== Brand Section Start ==========================-->
+          <!-- <section class="brand__area">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="brand__title">
+                    <span class="brand__line"></span>
+                    <h2><span class="counter">20</span>+ Brands trust us</h2>
+                    <span class="brand__line"></span>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="brand__main">
+                    <div
+                      class="brand__main__single"
+                      data-aos="zoom-in-up"
+                      data-aos-delay="300"
+                      data-aos-duration="1200"
+                    >
+                      <img src="assets/images/brand/b1.png" alt="img" />
+                    </div>
+                    <div
+                      class="brand__main__single"
+                      data-aos="zoom-in-up"
+                      data-aos-delay="350"
+                      data-aos-duration="1200"
+                    >
+                      <img src="assets/images/brand/b2.png" alt="img" />
+                    </div>
+                    <div
+                      class="brand__main__single"
+                      data-aos="zoom-in-up"
+                      data-aos-delay="300"
+                      data-aos-duration="1200"
+                    >
+                      <img src="assets/images/brand/b3.png" alt="img" />
+                    </div>
+                    <div
+                      class="brand__main__single"
+                      data-aos="zoom-in-up"
+                      data-aos-delay="350"
+                      data-aos-duration="1200"
+                    >
+                      <img src="assets/images/brand/b4.png" alt="img" />
+                    </div>
+                    <div
+                      class="brand__main__single"
+                      data-aos="zoom-in-up"
+                      data-aos-delay="300"
+                      data-aos-duration="1200"
+                    >
+                      <img src="assets/images/brand/b5.png" alt="img" />
+                    </div>
+                    <div
+                      class="brand__main__single"
+                      data-aos="zoom-in-up"
+                      data-aos-delay="300"
+                      data-aos-duration="1200"
+                    >
+                      <img src="assets/images/brand/b6.png" alt="img" />
+                    </div>
+                    <div
+                      class="brand__main__single"
+                      data-aos="zoom-in-up"
+                      data-aos-delay="350"
+                      data-aos-duration="1200"
+                    >
+                      <img src="assets/images/brand/b7.png" alt="img" />
+                    </div>
+                    <div
+                      class="brand__main__single"
+                      data-aos="zoom-in-up"
+                      data-aos-delay="300"
+                      data-aos-duration="1200"
+                    >
+                      <img src="assets/images/brand/b8.png" alt="img" />
+                    </div>
+                    <div
+                      class="brand__main__single"
+                      data-aos="zoom-in-up"
+                      data-aos-delay="350"
+                      data-aos-duration="1200"
+                    >
+                      <img src="assets/images/brand/b9.png" alt="img" />
+                    </div>
+                    <div
+                      class="brand__main__single"
+                      data-aos="zoom-in-up"
+                      data-aos-delay="300"
+                      data-aos-duration="1200"
+                    >
+                      <img src="assets/images/brand/b10.png" alt="img" />
+                    </div>
+                    <div
+                      class="brand__main__single"
+                      data-aos="zoom-in-up"
+                      data-aos-delay="300"
+                      data-aos-duration="1200"
+                    >
+                      <img src="assets/images/brand/b11.png" alt="img" />
+                    </div>
+                    <div
+                      class="brand__main__single"
+                      data-aos="zoom-in-up"
+                      data-aos-delay="350"
+                      data-aos-duration="1200"
+                    >
+                      <img src="assets/images/brand/b12.png" alt="img" />
+                    </div>
+                    <div
+                      class="brand__main__single"
+                      data-aos="zoom-in-up"
+                      data-aos-delay="300"
+                      data-aos-duration="1200"
+                    >
+                      <img src="assets/images/brand/b13.png" alt="img" />
+                    </div>
+                    <div
+                      class="brand__main__single"
+                      data-aos="zoom-in-up"
+                      data-aos-delay="350"
+                      data-aos-duration="1200"
+                    >
+                      <img src="assets/images/brand/b14.png" alt="img" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section> -->
+          <!--========================== Brand Section End ==========================-->
+          <!-- ==================== Footer (same structure as homepage) ==================== -->
+          <div class="footer__menu ur-footer-crush">
+            <div class="container">
+              <div class="row ur-footer-crush__row row-cols-1 gy-4 align-items-start justify-content-lg-between justify-content-center text-lg-start text-center">
+          <div class="col-12 col-lg-3 mb-4 mb-lg-0 ur-footer-crush__brand">
+            <a class="ur-footer-crush__logo-link" href="/"
+              ><img
+                class="ur-footer-crush__logo-img"
+                src="assets/images/logo/logo-footer.png"
+                alt="Urbanrupee"
+                width="200"
+                height="60"
+                decoding="async"
+                loading="lazy"
+            /></a>
+            <p class="ur-footer-crush__tagline">Enterprise payment infrastructure for modern businesses.</p>
+            <nav class="ur-footer-crush__social" aria-label="Urbanrupee on social media">
+              <ul>
+                <li>
+                  <a href="https://www.instagram.com/urbanrupee_/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"
+                    ><i class="fa-brands fa-lg fa-instagram" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/company/urbanrupeex/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"
+                    ><i class="fa-brands fa-lg fa-linkedin-in" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://x.com/urbanrupee" target="_blank" rel="noopener noreferrer" aria-label="X"
+                    ><i class="fa-brands fa-lg fa-twitter" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://www.youtube.com/@urbanrupee.1" target="_blank" rel="noopener noreferrer" aria-label="YouTube"
+                    ><i class="fa-brands fa-lg fa-youtube" aria-hidden="true"></i
+                  ></a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+                <div class="col-12 col-sm-6 col-lg-3 mb-3">
+                  <div class="footer__menu__wrap__item">
+                    <h4>Company</h4>
+                    <ul>
+                      <li><a href="#">Our Team</a></li>
+                      <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                      <li><a href="terms-of-service.html">Terms & Conditions</a></li>
+                      <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 mb-3">
+                  <div class="footer__menu__wrap__item">
+                    <h4>Services</h4>
+                    <ul>
+                      <li><a href="services.html">All Services</a></li>
+                      <li><a href="payment-services.html">Payment Services</a></li>
+                      <li><a href="aml-detector.html">AML Detector</a></li>
+                      <li><a href="automatic-reconciliation.html">Automatic Reconciliation</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 mb-3">
+                  <div class="footer__menu__wrap__item">
+                    <h4>Products</h4>
+                    <ul>
+                      <li><a href="white-label-platform.html">White Label Platform</a></li>
+                      <li><a href="custom-checkout.html">Custom Checkout</a></li>
+                      <li><a href="hyper-checkout.html">Hyper Checkout</a></li>
+                      <li><a href="payment-orchestration.html">Orchestration</a></li>
+
+                      <li><a href="payout-portal.html">Payout Portal</a></li>
+
+
+                      <li><a href="close-route-wallet.html">Close Route Wallet</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer__bottombar">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-12 text-center">
+                  <div class="footer__iso-logo">
+                    <img loading="lazy" decoding="async" class="pcidss-logo" src="assets/images/footer/dss-2.webp" alt="PCI DSS Compliant" />
+                    <span class="footer__logo-divider"></span>
+                    <img loading="lazy" decoding="async" src="assets/images/footer/isooooo.webp" alt="ISO 27001:2022 Certification" />
+                  </div>
+                  <div class="footer__copy mt-2">
+                    <span>
+                      Copyright © 2025
+                      <a href="/"><span class="ur-brand-name">Urbanrupee</span> Techsolution Pvt Ltd</a>. All rights reserved.
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ==================== Footer End Here ==================== -->
+        </div>
+      </div>
+    </main>
+    <!-- Jquery js -->
+    <script defer src="assets/js/jquery-3.7.1.min.js"></script>
+    <!-- Bootstrap Bundle Js -->
+    <script defer src="assets/js/boostrap.bundle.min.js"></script>
+    <!-- GSAP js -->
+    <script defer src="assets/js/gsap.min.js"></script>
+    <!-- ScrollTrigger js -->
+    <script defer src="assets/js/ScrollTrigger.min.js"></script>
+    <!-- ScrollToPlugin js -->
+    <script defer src="assets/js/ScrollToPlugin.min.js"></script>
+    <!-- AOS js -->
+    <script defer src="assets/js/aos.js"></script>
+    <!-- Owl Carousel js -->
+    <script defer src="assets/js/owl.carousel.min.js"></script>
+    <!-- Nice Select js -->
+    <script defer src="assets/js/jquery.nice-select.min.js"></script>
+    <!-- Waypoint js -->
+    <script defer src="assets/js/waypoints.min.js"></script>
+    <!-- Counter js -->
+    <script defer src="assets/js/counter.min.js"></script>
+
+    <!-- main js -->
+    <script defer src="assets/js/main.js"></script>
+    <script defer src="assets/js/urbanrupee-chatbot-knowledge.js"></script>
+    <script defer src="assets/js/urbanrupee-chatbot.js"></script>
+</body>
+
+  <!-- Mirrored from coui.site/iTop-live/payment.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 08 Apr 2025 00:23:17 GMT -->
+</html>

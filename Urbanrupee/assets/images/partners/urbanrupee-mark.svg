@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Urbanrupee">
+  <defs>
+    <linearGradient id="urOrb" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5de0e6"/>
+      <stop offset="100%" stop-color="#0078a6"/>
+    </linearGradient>
+  </defs>
+  <circle cx="60" cy="60" r="58" fill="#ffffff"/>
+  <circle cx="60" cy="60" r="50" fill="url(#urOrb)"/>
+  <text
+    x="60"
+    y="58"
+    text-anchor="middle"
+    font-family="system-ui, -apple-system, 'Segoe UI', sans-serif"
+    font-weight="800"
+    font-size="13"
+    letter-spacing="-0.03em"
+    fill="#ffffff"
+  >Urban</text>
+  <text
+    x="60"
+    y="76"
+    text-anchor="middle"
+    font-family="system-ui, -apple-system, 'Segoe UI', sans-serif"
+    font-weight="800"
+    font-size="13"
+    letter-spacing="-0.03em"
+    fill="#ffffff"
+  >rupee</text>
+</svg>
